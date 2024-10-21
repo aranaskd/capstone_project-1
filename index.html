@@ -17,35 +17,36 @@
     <link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark px-md-5 fixed-top bg-transparent" id="my-nav">
         <div class="container-fluid">
-            <h2 class="my-auto">K<span class="c-light-orange">D</span>A</h2>
+            <h2 class="my-auto t-shadow">K<span class="c-light-orange">D</span>A</h2>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto ">
-                    <a class="nav-link mx-md-3 text-white position-relative text-uppercase" aria-current="page" href="#landing">Home</a>
-                    <a class="nav-link mx-md-3 text-white position-relative text-uppercase" href="#projects">Projects</a>
-                    <a class="nav-link mx-md-3 text-white position-relative text-uppercase" href="#contact">Contact</a>
-                    <a class="nav-link mx-md-3 text-white position-relative text-uppercase" href="#tools">Tools</a>
+                    <a class="nav-link mx-md-3 text-white position-relative text-uppercase t-shadow" aria-current="page" href="#landing">Home</a>
+                    <a class="nav-link mx-md-3 text-white position-relative text-uppercase t-shadow" href="#projects">Projects</a>
+                    <a class="nav-link mx-md-3 text-white position-relative text-uppercase t-shadow" href="#tools">Tools</a>
+                    <a class="nav-link mx-md-3 text-white position-relative text-uppercase t-shadow" href="#contact">Contact</a>
                 </div>
             </div>
         </div>
     </nav>
     
     <!-- Landing Page -->
-    <section class="container-fluid p-md-5" id="landing">
+    <section class="container-fluid py-md-5" id="landing">
         <div class="row d-flex justify-content-md-center align-items-center py-md-5 my-md-5">
-            <div class="col-md-4 my-5 my-md-0">
+            <div class="col-lg-4 pt-5 pt-md-0 my-5 my-md-0">
                 <div class="text-center">
                     <img class="profile-photo img-fluid" src="./images/my_photo.jpg" alt="">
                 </div>
             </div>
             
-            <div class="col-md-8 my-5 my-md-0 p-md-5 rounded fs-4">
-                <h2 class="fw-bold my-4">Kristian Dave Aranas</h2>
-                <h3 class="c-light-orange fw-bold my-4 fs-2 text-start">Full Stack Web Developer</h3>
+            <div class="col-lg-8 mb-5 my-md-0 p-md-5 rounded fs-4">
+                <h2 class="fw-bold my-4 text-center text-lg-start">Kristian Dave Aranas</h2>
+                <h3 class="c-light-orange fw-bold my-4 fs-2 text-start text-center text-lg-start">Full Stack Web Developer</h3>
                 <p>A passionate Full Stack Web Developer. With a strong foundation in both front-end and back-end technologies, I strive to build seamless, user-friendly web applications that solve real-world problems.</p>
                 
                 <p>From designing intuitive user interfaces to architecting robust server-side logic, I am committed to delivering high-quality, scalable, and maintainable solutions. Explore my projects to see how I transform ideas into functional and aesthetically pleasing web experiences.</p>
@@ -57,20 +58,26 @@
     <section class="container-fluid py-5" id="projects">
         <h2 class="c-light-orange text-center m-2 m-md-5 fw-bold fs-1 t-shadow">PROJECTS</h2>
         <div class="row d-flex justify-content-center align-items-top pb-md-5">
-            <div class="col-md-6 col-lg-4 px-5 text-center">
-                <img src="https://miro.medium.com/v2/resize:fit:400/1*dszrnf9dNssNBWujoB2F9Q.png" class="img-fluid mt-5 mb-3">
+            <div class="col-md-5 col-lg-3 px-5 text-center">
+                <a href="https://aranaskd.github.io/capstone_project-1/" target="_blank">
+                    <img src="https://miro.medium.com/v2/resize:fit:400/1*dszrnf9dNssNBWujoB2F9Q.png" class="img-fluid mt-5 mb-3">
+                </a>
                 <h3 class="text-dark text-center t-shadow">Front End</h3>
                 <p class="text-dark"><strong class="text-dark">Portfolio Showcase</strong> is a front-end project created with HTML and CSS. It highlights my skills and achievements through a visually appealing personal portfolio. Focusing on responsive design and interactive elements, this project demonstrates modern front-end development best practices, offering visitors a seamless and engaging user experience..</p>
             </div>
             
-            <div class="col-md-6 col-lg-4 px-5 text-center">
-                <img src="https://cdn.dribbble.com/userupload/13172250/file/original-0d9c9e0c806c725f809679f7e3b82916.png?resize=400x300&vertical=center" class="img-fluid mt-5 mb-3">
+            <div class="col-md-5 col-lg-3 px-5 text-center">
+                <a href="http://zuitt-bootcamp-prod-443-7483-aranas.s3-website.us-east-1.amazonaws.com" target="_blank"></a>
+                    <img src="https://cdn.dribbble.com/userupload/13172250/file/original-0d9c9e0c806c725f809679f7e3b82916.png?resize=400x300&vertical=center" class="img-fluid mt-5 mb-3">
+                </a>
                 <h3 class="text-dark text-center t-shadow">Full Stack</h3>
                 <p class="text-dark"><strong class="text-dark">Task Tracker</strong> is a comprehensive full-stack application developed using React for the front end and Node.js, Express, and MongoDB for the back end. It enables users to manage tasks efficiently with features like real-time updates, user authentication, and a responsive design. This project exemplifies modern web development, ensuring a seamless user experience.</p>
             </div>
             
-            <div class="col-md-6 col-lg-4 px-5 text-center">
-                <img src="https://cdn.dribbble.com/userupload/11899231/file/original-51fe84086952b8fa1c282149c75e0414.jpg?crop=0x109-1024x877&resize=400x300&vertical=center" class="img-fluid mt-5 mb-3">
+            <div class="col-md-5 col-lg-3 px-5 text-center">
+                <a href="https://github.com/aranaskd/Zuitt-Capstone-2" target="_blank"></a>
+                    <img src="https://cdn.dribbble.com/userupload/11899231/file/original-51fe84086952b8fa1c282149c75e0414.jpg?crop=0x109-1024x877&resize=400x300&vertical=center" class="img-fluid mt-5 mb-3">
+                </a>
                 <h3 class="text-dark text-center t-shadow">Back End</h3>
                 <p class="text-dark"><strong class="text-dark">Inventory Manager</strong> is a robust backend project developed using Node.js, Express, and MongoDB. This system efficiently handles inventory tracking, user authentication, and data management. By implementing RESTful APIs and adhering to best practices in backend development, it ensures secure, scalable, and high-performance operations for businesses of all sizes</p>
             </div>
@@ -148,10 +155,10 @@
     
     <!-- Contact Page -->
     <section class="container-fluid" id="contact">
-        <div class="row">
+        <div class="row ">
             <div class="col-md-3 col-lg-5 col-xxl-6" id="contact-img"></div>
             <div class="col-md-9 col-lg-7 col-xxl-6 px-md-5 my-md-4" id="contact-left-section">
-                <div class="p-1 p-md-5">
+                <div class="pt-5 p-md-5">
                     <div class="d-flex">
                         <h2 id="contact-header" class="fw-bold my-auto c-light-orange t-shadow">CONTACT US</h2>
                         <div class="ms-auto">
@@ -187,7 +194,7 @@
             <div class="row mt-5 py-5 d-flex justify-content-center landing-gradient">
                 <h2 class="c-light-orange text-center my-2 my-md-5 fw-bold fs-1 t-shadow">MY LOCATION</h2>
                 <div class="col-md-8 d-flex justify-content-center align-items-center">
-                    <iframe class="mt-3 mt-md-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.1419366286027!2d153.00696164034645!3d-27.46484021659859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b9150abedfe920b%3A0xf02a35bd721b500!2sSuncorp%20Stadium!5e0!3m2!1sen!2sph!4v1719939447555!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class="mt-3 mt-md-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.1419366286027!2d153.00696164034645!3d-27.46484021659859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b9150abedfe920b%3A0xf02a35bd721b500!2sSuncorp%20Stadium!5e0!3m2!1sen!2sph!4v1719939447555!5m2!1sen!2sph" width="600" height="450" class="border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
             
